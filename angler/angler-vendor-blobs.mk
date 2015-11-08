@@ -115,4 +115,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/huawei/angler/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/huawei/angler/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/huawei/angler/proprietary/lib64/liblibManufacture.so:system/lib64/libManufacture.so \
+    vendor/huawei/angler/proprietary/lib64/libManufacture.so:system/lib64/libManufacture.so \
