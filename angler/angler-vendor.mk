@@ -20,12 +20,16 @@ PRODUCT_PACKAGES += \
     HwMMITest \
     HwSarControlService \
     qcrilmsgtunnel \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
     TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
     cneapiclient \
-    qcrilhook 
+    qcrilhook \
+    rcsimssettings \
+    rcsservice
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
