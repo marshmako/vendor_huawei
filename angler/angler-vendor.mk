@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
+    cneapiclient \
     qcrilhook 
 
 # Prebuilt privileged APKs
