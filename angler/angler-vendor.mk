@@ -27,6 +27,9 @@ PRODUCT_PACKAGES += \
 # Prebuilt jars
 PRODUCT_PACKAGES += \
     cneapiclient \
+    com.google.android.media.effects \
+    com.android.nfc_extras \
+    com.google.widevine.software.drm \
     qcrilhook \
     rcsimssettings \
     rcsservice

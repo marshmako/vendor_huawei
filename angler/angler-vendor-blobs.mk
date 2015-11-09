@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/huawei/angler/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/angler/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/huawei/angler/proprietary/bin/bin/mm-qcamera-daemon:system/bin/bin/mm-qcamera-daemon \
     vendor/huawei/angler/proprietary/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
     vendor/huawei/angler/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
     vendor/huawei/angler/proprietary/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
@@ -47,8 +48,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/angler/proprietary/bin/qjpeg-dma-test:system/bin/qjpeg-dma-test \
     vendor/huawei/angler/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/huawei/angler/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/angler/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/angler/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/huawei/angler/proprietary/bin/sensortool.angler:system/bin/sensortool.angler \
     vendor/huawei/angler/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/huawei/angler/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/huawei/angler/proprietary/bin/test_diag:system/bin/test_diag \
@@ -87,8 +90,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/angler/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/huawei/angler/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+    vendor/huawei/angler/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/huawei/angler/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/huawei/angler/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/huawei/angler/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/huawei/angler/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/huawei/angler/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/angler/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/angler/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
